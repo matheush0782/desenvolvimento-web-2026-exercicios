@@ -1,8 +1,6 @@
 const API_URL = 'https://jsonplaceholder.typicode.com';
 
-// ==========================
 // ATUALIZAR INFORMAÇÕES NA TELA
-// ==========================
 function atualizarInfo(metodo, url, status, tempo) {
   document.getElementById('info-metodo').textContent = metodo;
   document.getElementById('info-url').textContent = url;
@@ -10,9 +8,7 @@ function atualizarInfo(metodo, url, status, tempo) {
   document.getElementById('info-tempo').textContent = tempo + " ms";
 }
 
-// ==========================
 // CARREGAR USUÁRIOS (GET)
-// ==========================
 async function carregarUsuarios() {
   const startTime = Date.now();
 
@@ -58,9 +54,7 @@ async function carregarUsuarios() {
   }
 }
 
-// ==========================
 // CRIAR POST (POST)
-// ==========================
 async function criarPost(event) {
   event.preventDefault();
 
@@ -116,9 +110,7 @@ async function criarPost(event) {
   }
 }
 
-// ==========================
 // EVENTOS
-// ==========================
 document.getElementById('btn-carregar')
   .addEventListener('click', carregarUsuarios);
 

@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Fonte Helvetica aplicada */
 body {
   font-family: Helvetica, Arial, sans-serif;
   background: #1b0f2b; /* roxo escuro */
@@ -18,8 +17,8 @@ header {
   text-align: center;
   padding: 25px;
   background: linear-gradient(135deg, #2e1a47, #4b2c6d);
-  color: #6CFF4F; /* verde neon */
-  border-bottom: 4px solid #FFB000; /* amarelo */
+  color: #6CFF4F; 
+  border-bottom: 4px solid #FFB000;
   margin-bottom: 30px;
 }
 
@@ -57,7 +56,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-/* Loading */
 #loading {
   font-weight: bold;
   color: #6CFF4F;
@@ -68,7 +66,6 @@ button:disabled {
   display: none;
 }
 
-/* TABELA */
 .table-wrapper {
   overflow-x: auto;
 }
@@ -95,7 +92,6 @@ tr:hover {
   background: rgba(108,255,79,0.08);
 }
 
-/* Formulário */
 form {
   display: flex;
   flex-direction: column;
